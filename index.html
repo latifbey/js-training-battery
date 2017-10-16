@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>IT Club Oberland - JS Training</title>
@@ -11,33 +11,34 @@
     <link rel="stylesheet" href="js/lib/normalize/normalize.css">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-    
-     
+
+<script src="js/battery/index.js"></script>
+<script src="js/main.js"></script>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <style>
-    #game(width:200px;padding:100px;)
-    #game div(width:200px; height:810px; float:center; border:2px solid #fff;)
-    .kirmizi(background:##ff2400;)
-    .mavi(background:#0000ff;)
-    .sari(background:#ffff00;)
-    .yesil(background:#00ff00;)
-    </style>
-       <script src="js/battery/index.js"></script>
-    <script src="js/main.js"></script>
-<body>
    
-    <div id="index">
-    <div id="hucre4" class="yesil"></div>
-    <div id="hucre3" class="sari"></div>
-    <div id="hucre2" class="mavi"></div>
-    <div id="hucre1" class="kirmizi"></div>
 
-    
+</style>
+
+
+<body>
+
+    <div id="game">
+       
+        <div id="hucre4" class="yesil">full %100</div>
+        <div id="hucre3" class="sari">      %75</div>
+        <div id="hucre2" class="turuncu">   %50</div>
+        <div id="hucre1" class="kirmizi">Achtung %25</div>
+        <div id="hucre0" class="beyaz"></div>
+
+
     </div>
-    
-    
+
+<button onclick="time()">AutoSharje</button>
+
 </body>
+
 </html>
