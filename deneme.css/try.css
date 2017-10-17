@@ -7,7 +7,7 @@ body{
     border: 10px dotted red;
     border-radius: 50px;
     padding-left: 100px;
-    margin: 50px;
+    margin: 150px;
     
     
 }
@@ -33,6 +33,11 @@ body{
         
     
 }
+ [itclub] {
+    font-weight: bold;
+    text-decoration: underline;
+     color:red;
+}
 
 #car{
     
@@ -53,3 +58,60 @@ body{
     text-decoration: underline;
     color: purple;
 }
+
+#animasyon-container {
+    width: 800px;
+    height: 60px;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 24px;
+    background: gainsboro;
+    box-shadow: 0 0 10px 4px mediumpurple;
+}
+#animasyon2 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+    border-radius: 24px;
+    background: green;
+    animation: animasyonum2 10s infinite linear;
+    -webkit-animation: animasyonum2 10s infinite linear;
+}
+#animasyon-yukleniyor {
+    width: 800px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-family: 'Conv_segoeui', Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    color: mediumpurple;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    animation: animasyonum3 10s infinite ease-in-out;
+    -webkit-animation: animasyonum3 10s infinite ease-in-out;
+}
+@keyframes animasyonum2 {
+    0% { width: 60px;background: green;} 
+    25% { width: 200px; background: gold;} 
+    50% { width: 400px; background: orange;} 
+    75% { width: 600px; background: orangered;}  
+    100% { width: 800px;background: red;} 
+}
+@-webkit-keyframes animasyonum2 {
+    0% { width: 60px;background: green;} 
+    25% { width: 200px; background: gold;} 
+    50% { width: 400px; background: orange;} 
+    75% { width: 600px; background: orangered;}  
+    100% { width: 800px;background: red;} 
+}
+@keyframes animasyonum3 {
+    0% { opacity: 0;}
+    100% { opacity: 1;} 
+}
+@-webkit-keyframes animasyonum3 {
+    0% { opacity: 0;}
+    100% { opacity: 1;} 
+}
+
