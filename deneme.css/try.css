@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    font-family:verdana;
+    font-weight:bold;
+    font-size: 20px;
+    
+    
+}
+div{
+    
+    width: 600px;
+    height: 300px;
+    font-size: 18px;
+    background-color:  goldenrod;
+        
+    
+}
