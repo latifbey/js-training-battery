@@ -46,6 +46,7 @@ function renkDegistir4(hucreId, renk){
 
 function time() {
     var x =$('#game');
+    setTimeout(function(){ x=renkDegistir0();}, 10);
     setTimeout(function(){ x=renkDegistir1();}, 2000);
     setTimeout(function(){x=renkDegistir2(); }, 4000);
     setTimeout(function(){ x=renkDegistir3(); }, 6000);
