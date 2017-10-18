@@ -37,7 +37,7 @@ function renkDegistir3(hucreId, renk){
 function renkDegistir4(hucreId, renk){
     
     $("#hucre0").css("background-color","black")
-     $("#hucre1").css("background-color","green")
+     $("#hucre1").css("background-color","green");
      $("#hucre2").css("background-color","green")
      $("#hucre3").css("background-color","green")
      $("#hucre4").css("background-color","green")
