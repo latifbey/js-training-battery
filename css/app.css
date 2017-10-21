@@ -1,16 +1,73 @@
-input[type=range][orient=vertical]
-{
-    writing-mode: bt-lr; /* IE */
-    -webkit-appearance: slider-vertical; /* WebKit */
+input[type=range][orient=vertical] {
+    writing-mode: bt-lr;
+    /* IE */
+    -webkit-appearance: slider-vertical;
+    /* WebKit */
     width: 8px;
     height: 175px;
-    padding: 0 5px;
+    padding: 0 50px;
 }
-   #game{background:#fff;width:50px; height:200; margin:auto; padding:100px;}
+
+#game {
     
-    .kirmizi{background:#ff2400;width:125px; height:50px;  float:center;   border:2px solid black;} 
-    .turuncu{background:#ffbf00;width:125px; height:50px; float:center;   border:2px solid black;} 
-    .sari{background:#ffff00;width:125px; height:50px; float:center;   border:2px solid black;} 
-    .yesil{background:#00ff00;width:125px; height:50px; float:center;   border:2px solid black;}
-    .beyaz{background:black;width:125px; height:10px; float:center;   border:2px solid black;}
- 
+    background: #fff;
+    width: 50px;
+    height: 200px;
+    margin:  auto;
+    padding: 10px;
+}
+
+.kirmizi {
+    background: #ff2400;
+    width: 125px;
+    height: 50px;
+    float: center;
+    border: 2px solid black;
+}
+
+.turuncu {
+    background: #ffbf00;
+    width: 125px;
+    height: 50px;
+    float: center;
+    border: 2px solid black;
+}
+
+.sari {
+    background: #ffff00;
+    width: 125px;
+    height: 50px;
+    float: center;
+    border: 2px solid black;
+}
+
+.yesil {
+    background: #00ff00;
+    width: 125px;
+    height: 50px;
+    float: center;
+    border: 2px solid black;
+}
+
+.beyaz {
+    background: black;
+    width: 125px;
+    height: 10px;
+    float: center;
+    border: 2px solid black;
+}
+
+
+
+.slider-wrapper input {
+   
+    width: 150px;
+    height: 20px;
+    margin-left: 400px;
+   
+    transform-origin: 5px 5px;
+    transform: rotate(-90deg);
+}
+button{
+    margin-left: 375px;
+}
